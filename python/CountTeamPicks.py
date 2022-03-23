@@ -1,7 +1,7 @@
 # Author: Marci Devuaughan
 # Created: 04 February 2022
 # Updated: 04 February 2022
-# Counts number of Picks per Team
+# Counts number of Picks recieved per Team
 
 from re import findall
 from sys import stdin
