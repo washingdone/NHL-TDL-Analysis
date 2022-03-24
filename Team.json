@@ -1,7 +1,8 @@
 {
-    "name" : "Edmonton Oilers",
-    "division" : "Pacific",
-    "playersRecieved" : {},
-    "picksRecieved" : {},
-    "transactionNotes" : ""
+  "name": "Edmonton Oilers",
+  "division": "Pacific",
+  "playersRecieved": [],
+  "picksRecieved": [],
+  "capChange": 0,
+  "transactionNotes": ""
 }
