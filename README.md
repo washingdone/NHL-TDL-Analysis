@@ -19,5 +19,5 @@ Commands listed are verified for powershell
 - --keepEmptyData (-k)
   - Maintains rows that would only contain one data value on programs that default to ignore
 #### Example Commands
-- cat .\2022NHLTDL.csv | python .\python\MapTeams.py | sort | python .\python\CountTeamTrades.py`
+- cat .\2022NHLTDL.csv | python .\python\MapTrades.py | sort | python .\python\CountTeamTrades.py`
   - Counts number of trades per team
