@@ -1,6 +1,8 @@
 # NHL-TDL-Analysis
 A group of programs to parse NHL Trade Deadline Data
 
+**Warning:** This project is in an unfinished state and should not be expected to function properly. This repo is uploaded for posterity's sake.
+
 ## Data Format
 Data should be a standard CSV file with the following heading included
 ```csv

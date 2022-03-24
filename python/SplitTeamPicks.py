@@ -17,4 +17,4 @@ for line in stdin:
         team, picks = rowData
         if picks or keepPicks:
           for pick in picks.split("; "):
-            print(team, pick)
+            print("{0},{1}".format(team, pick))

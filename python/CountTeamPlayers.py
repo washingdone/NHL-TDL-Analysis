@@ -1,21 +1,19 @@
 # Author: Marci Devuaughan
 # Created: 04 February 2022
 # Updated: 04 February 2022
-# Counts number of Trades per Team
+# Counts number of Picks per Team
 
 from re import findall
 from sys import stdin
-fo = open("TeamTrades.csv", "w")
+fo = open("TeamPlayers.csv", "w")
 
 currentKey = ""
 currentValue = 0
-i = 0
+
 for line in stdin:
   rowData = line.strip().split(',')
-  print(rowData)
-  team, uuid = rowData
+  team, players = rowData
   if team != currentKey: # check if current key is equal to key being scanned
-    i = i+ 1
     if currentKey: # check that key has been initialized
 
       # output the last key value pair result
