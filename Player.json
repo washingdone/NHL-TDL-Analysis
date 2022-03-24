@@ -1,0 +1,11 @@
+{
+    "name" : "Connor McDavid",
+    "team" : "Edmonton Oilers",
+    "age" : 25,
+    "capHit" : 12500000,
+    "expiryStatus" : 4,
+    "retainedAbsolute" : 0,
+    "retainedPercent" : 0,
+    "isNHL" : true,
+    "isSigned" : true
+}
