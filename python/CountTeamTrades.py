@@ -11,10 +11,8 @@ currentKey = ""
 currentValue = 0
 i = 0
 for line in stdin:
-  rowData = line.strip().split(',')
-  print(rowData)
-  team, uuid = rowData
-  if team != currentKey: # check if current key is equal to key being scanned
+  line = line.strip()
+  if line != currentKey: # check if current key is equal to key being scanned
     i = i+ 1
     if currentKey: # check that key has been initialized
 
@@ -22,7 +20,7 @@ for line in stdin:
       fo.write(currentKey + ',' + str(currentValue) + '\n')
 
     # start over when changing keys
-    currentKey = team
+    currentKey = line
     currentValue = 0
 
   # increase count by one

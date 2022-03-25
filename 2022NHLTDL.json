@@ -1,0 +1,96 @@
+[
+  {
+    "date": "14-3-2022",
+    "team1": {
+      "name": "Anaheim Ducks",
+      "division": "Pacific",
+      "playersRecieved": [
+        {
+          "name": "Drew Helleson",
+          "team": "Colorado Avalanche",
+          "age": 20,
+          "capHit": 0,
+          "expiryStatus": -1,
+          "retainedAbsolute": 0,
+          "retainedPercent": 0,
+          "isNHL": false,
+          "isSigned": false
+        }
+      ],
+      "picksRecieved": [
+        {
+          "team": "Colorado Avalanche",
+          "year": 2023,
+          "round": 2,
+          "protection": 0,
+          "conditons": null
+        }
+      ],
+      "capChange": -2050000,
+      "transactionNotes": ""
+    },
+    "team2": {
+      "name": "Colorado Avalanche",
+      "division": "Central",
+      "playersRecieved": [
+        {
+          "name": "Josh Manson",
+          "team": "Anaheim Ducks",
+          "age": 30,
+          "capHit": 2050000,
+          "expiryStatus": 0,
+          "retainedAbsolute": 2050000,
+          "retainedPercent": 50,
+          "isNHL": true,
+          "isSigned": true
+        }
+      ],
+      "picksRecieved": [],
+      "capChange": 2050000,
+      "transactionNotes": ""
+    }
+  },
+  {
+    "date": "15-3-2022",
+    "team1": {
+      "name": "Colorado Avalanche",
+      "division": "Central",
+      "playersRecieved": [
+        {
+          "name": "Nico Sturm",
+          "team": "Minnesota Wild",
+          "age": 26,
+          "capHit": 725000,
+          "expiryStatus": 0,
+          "retainedAbsolute": 0,
+          "retainedPercent": 0,
+          "isNHL": true,
+          "isSigned": true
+        }
+      ],
+      "picksRecieved": [],
+      "capChange": -1275000,
+      "transactionNotes": ""
+    },
+    "team2": {
+      "name": "Minnesota Wild",
+      "division": "Central",
+      "playersRecieved": [
+        {
+          "name": "Tyson Jost",
+          "team": "Colorado Avalanche",
+          "age": 24,
+          "capHit": 2000000,
+          "expiryStatus": 1,
+          "retainedAbsolute": 0,
+          "retainedPercent": 0,
+          "isNHL": true,
+          "isSigned": true
+        }
+      ],
+      "picksRecieved": [],
+      "capChange": 1275000,
+      "transactionNotes": ""
+    }
+  }
+]

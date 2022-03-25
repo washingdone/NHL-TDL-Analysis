@@ -3,16 +3,18 @@
 # Updated: 04 February 2022
 # Maps Team to Trade Number
 
-from sys import stdin
+from sys import argv
+import json
 
-stdin.readline()
-uuid = 1;
+fi = open("2022NHLTDL.json", "r")
+data = json.load(fi)
+fi.close()
 
-for line in stdin:
-    rowData = line.strip().split(",")
-    if len(rowData) == 12:
-        team_1,team_2,team_3,players_1,picks_1,notes_1,players_2,picks_2,notes_2,players_3,picks_3,notes_3 = rowData
-        print("{0},{1}".format(team_1, uuid))
-        print("{0},{1}".format(team_2, uuid))
-        if team_3:
-          print("{0},{1}".format(team_3, uuid))
+for trade in data:
+    team1 = trade['team1']
+    team2 = trade['team2']
+    team3 = False
+    print(team1['name'])
+    print(team2['name'])
+    if team3:
+      print(team3['name'])
